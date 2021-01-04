@@ -26,6 +26,7 @@ class SlingShot{
             var pointB = this.pointB;
             strokeWeight(15);
             stroke(48,22,8);
+            line(pointA.x,pointA.y,pointB.x,pointB.y);
         }
     }
 
